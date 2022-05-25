@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+#header .logo a {
+    height: 34px;
+    position: absolute;
+    top: 52px;
+    width: 68px;
+    left: 16px;
+  }
+  #header .logo_line {
+    width: 62px;
+    left: 18px;
+    top: 110px;
+    border: 1px solid #c4c4c4;
+    position: absolute;
+  }
+  #header .home-div {
+    position: absolute;
+    width: 89px;
+    height: 57px;
+    left: 11px;
+    top: 142px;
+    background: #ffffff;
+    border-radius: 25px 0px 0px 25px;
+  }
+  #header .home {
+    width: 25px;
+    height: 25px;
+    left: 32px;
+    top: 16px;
+  }
+  #header .calendar {
+    width: 25px;
+    height: 25px;
+    left: 37px;
+    top: 233px;
+  }
+  #header .cubes {
+    width: 25px;
+    height: 25px;
+    left: 37px;
+    top: 292px;
+  }
+  #header .hidden {
+    position: absolute;
+    left: -35px;
+  }
+
+  #header .games {
+    width: 40px;
+    height: 25px;
+    left: 30px;
+    top: 351px;
+  }
+  #header a {
+    text-decoration: none;
+    color: transparent;
+    position: absolute;
+  }
+  #header:hover {
+    width: 206px;
+    transition-duration: 2s;
+  }
+  #header:hover .logo a {
+    left: 69px;
+    transition: 2s;
+  }
+  #header:hover .logo_line {
+    width: 128.22px;
+    left: 39px;
+    transition-duration: 2s;
+  }
+  #header:hover .home-div {
+    position: absolute;
+    width: 195px;
+    height: 57px;
+    left: 11px;
+    top: 142px;
+    transition-duration: 2s;
+  }
+  #header:hover .calendar {
+    position: absolute;
+    transition-duration: 2s;
+  }
+  #header:hover .cubes {
+    position: absolute;
+  }
+  #header:hover .games {
+    position: absolute;
+  }
+  #header:hover .hidden {
+    width: 81px;
+    left: 50px;
+    color: #C4C4C4;
+    transition-duration: 2s;
+  }
+  #header:hover .bluecolor {
+    color: #02577a;
+  }
+  .footer {
+    position: absolute;
+    width: 184px;
+    left: calc(50% - 22px);
+    bottom: 0;
+    /* top: 94%; */
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 50px;
+    color: #02577a;
+    margin-top: 25px;
+  }
+  .footer-line {
+    position: absolute;
+    width: 346px;
+    border: 1px solid #02577a;
+    left: -50%;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .footer {
+      left:calc(50% - 25px)
+    }}

@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap");
+body {
+  background-color: #ebeef5;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav {
+  background-color: #F7F6FF;
+  max-width: 100px;
+  height: 100%;
+  position: fixed;
+  transition: max-width 0.4s ease-in 0s;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.nav .logo {
+  margin: 52px 0 24px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav hr {
+  width: 62px;
+  max-width: 62px;
+  height: 2px;
+  background-color: #c4c4c4;
+  margin: auto;
+  border: none;
+  margin-bottom: 32px;
+  transition: max-width 0.4s ease-in 0s;
+}
+.nav .icon-bg {
+  border-radius: 25px 0 0 25px;
+  margin-left: 11px;
+  padding: 0;
+  background-color: transparent;
+  margin: 34px 0 34px 11px;
+  display: flex;
+  align-items: center;
+}
+.nav .icon-bg:last-child .icon {
+  left: 30px;
+}
+.nav .icon-bg:last-child a {
+  margin-left: 49px;
+}
+.nav .icon-bg.active {
+  padding: 16px;
+  background-color: #fff;
+}
+.nav .icon-bg.active .icon {
+  left: 26px;
+}
+.nav .icon-bg.active a {
+  color: #02577a;
+  margin-left: 42px;
+}
+.nav .icon-bg .icon {
+  position: relative;
+  left: 37px;
+}
+.nav .icon-bg a {
+  position: relative;
+  margin-left: 56px;
+  color: #c4c4c4;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+  transition-delay: 0.2s;
+}
+.nav .icon-bg a:hover {
+  text-decoration: underline;
+}
+.nav:hover {
+  max-width: 206px;
+  width: 206px;
+}
+.nav:hover hr {
+  width: 128px;
+  max-width: 128px;
+}
+.nav:hover a {
+  visibility: visible;
+  opacity: 1;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+  width: 346px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #02577a;
+  font-size: 11px;
+  border-top: 1px solid #02577a;
+  padding: 11px 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

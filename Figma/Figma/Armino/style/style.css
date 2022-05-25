@@ -1,0 +1,95 @@
+body {
+    background-color: #ebeef5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+  }
+  #nav-container {
+    background-color: blueviolet;
+    background-color: #f7f6ff;
+    width: 100px;
+    height: 100vh;
+    position: relative;
+    transition: all 1s ease-in-out;
+    overflow: hidden;
+    z-index: 0;
+  }
+  #nav-container:hover {
+    width: 200px;
+  }
+  
+  /* ----------LOGO---------- */
+  #nav-container > img {
+    padding-top: 50px;
+  }
+  #nav-container .bit-logo {
+    width: 70px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+  #nav-container .bit-logo:hover {
+    text-align: center;
+  }
+  #nav-container .line {
+    width: 66%;
+    height: 3px;
+    background-color: #c4c4c4;
+    margin: 20px 17% 0;
+  }
+  
+  /* ----------NAV-ITEMS---------- */
+  #nav-container .nav-list {
+    width: 100%;
+    padding: 50px 0 50px 30px;
+    list-style-type: none;
+    text-align: left;
+  }
+  #nav-container .nav-list .games {
+    margin-left: -7.5px;
+  }
+  #nav-container .nav-list li {
+    padding: 20px 0;
+  }
+  #nav-container .nav-list a {
+    display: block;
+    text-decoration: none;
+    color: #c4c4c4;
+  }
+  #nav-container .nav-list .home {
+    color: #02577a;
+  }
+  #nav-container .nav-list .white-field {
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    height: 50px;
+    width: 100%;
+    border-radius: 20px 0 0 20px;
+    left: 10px;
+    top: 183px;
+    z-index: -1;
+  }
+  #nav-container .nav-list .nav-names {
+    padding-left: 70px;
+    margin-top: -25px;
+  }
+  
+  /* ----------FOOTER---------- */
+  .footer-line {
+    width: 500px;
+    height: 2px;
+    background-color: #02577a;
+    margin-bottom: 10px;
+  }
+  .footer {
+    color: #02577a;
+    text-align: center;
+    position: absolute;
+    top: 96%;
+    /* NORĖČIAU SUŽINOTI KAIP TIKSLIAI CENTRUOTI */
+    left: 40%;
+  }
